@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PhoneBookMySqlOr_JSON:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PhoneBookMySqlOr_JSON-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="PhoneBookMySqlOr_JSON:war exploded" />
+    </root>
+  </artifact>
+</component>

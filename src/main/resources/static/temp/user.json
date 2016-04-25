@@ -1,0 +1,1 @@
+[{"login":"user1","password":"user1","surname":"user1","name":"user1","patronymic":"user1","roles":[{"id":1,"role_name":"USER"}],"phoneBookItems":[],"user_id":1},{"login":"user2","password":"user2","surname":"user2","name":"user2","patronymic":"user2","roles":[{"id":1,"role_name":"USER"}],"phoneBookItems":[],"user_id":2}]
