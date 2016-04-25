@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>jsp-demo-tomcat</name>
-    <description>Demo project for Spring Boot using JSPs and Tomcat</description>
+    <name>PhoneBook</name>
+    <description>PhoneBook project</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
