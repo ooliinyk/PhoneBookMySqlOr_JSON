@@ -1,0 +1,49 @@
+
+
+Configuration file: PhoneBookMySqlOr_JSON\src\main\resources\application.properties
+
+Run file: PhoneBookMySqlOr_JSON\src\main\com\Application
+
+sql for DB: PhoneBookMySqlOr_JSON\src\main\resources\sql\phone_book.sql
+
+application.properties configuration:
+# ===============================
+# = DATABASE CONFIGURATION
+# ===============================
+
+# Switch database:
+# Variable should be 1 if you would like to use MySql DB
+# Variable should be 2 if you would like to use JSON DB
+my.switchDB=1
+
+
+# ===============================
+# = MYSQL SETTING
+# ===============================
+
+jdbc.driverClassName = com.mysql.jdbc.Driver
+
+# set here your own configurations for the database
+# connection. In this example we have "phone_book" as database name and
+# "root" as username and password.
+jdbc.url = jdbc:mysql://localhost:3306/phone_book
+
+# Username and password
+jdbc.username = root
+jdbc.password = root
+
+# ===============================
+# = JSON SETTING
+# ===============================
+#To find files from resources/static/temp
+#You should set path to json`s files after maven build;
+#The easiest way is build maven;
+#Open target package and than copy Reference for each file;
+
+#or you can make any path but you should make role.json and add there role with name "USER" cause registration is worked only with existed file with this role;
+#Set path for PhoneBookItemPath
+my.PhoneBookItemPath= C:/Users/user/Desktop/PhoneBookMySqlOr_JSON/target/classes/static/temp/phoneBookItem.json
+#Set path for UserPath
+my.UserPath = C:/Users/user/Desktop/PhoneBookMySqlOr_JSON/target/classes/static/temp/user.json
+#Set path for RolePath
+my.RolePath = C:/Users/user/Desktop/PhoneBookMySqlOr_JSON/target/classes/static/temp/role.json
